@@ -862,14 +862,13 @@ header nav .form i {
     font-size: 30px;
     display: block;
     margin-bottom: 20px;
-    position: relative;
 }
 
 .quote .container q::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 15px;
-    position: absolute;
+    position: relative;
     top: 0px;
     left: -4px;
 }
@@ -878,55 +877,31 @@ header nav .form i {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 15px;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
 @media (max-width:767px) {
     .quote .container q::before {
-        top: 0px;
-        left: -4px;
+        top: -5px;
+        left: 0;
     }
 
     .quote .container q::after {
         bottom: 0;
-        right: 30px;
+        right: 0;
     }
 }
 
 @media (min-width:768px) {
     .quote .container q::before {
-        top: 0px;
-        left: -10px;
+        top: -5px;
+        left: 0;
     }
 
     .quote .container q::after {
         bottom: 0;
-        right: 107px;
-    }
-}
-
-@media (min-width:992px) {
-    .quote .container q::before {
-        top: 0px;
-        left: -10px;
-    }
-
-    .quote .container q::after {
-        bottom: 0;
-        right: 320px;
-    }
-}
-
-@media (min-width:1200px) {
-    .quote .container q::before {
-        top: 0px;
-        left: 27px;
-    }
-
-    .quote .container q::after {
-        bottom: 0;
-        right: 480px;
+        right: 0;
     }
 }
 
